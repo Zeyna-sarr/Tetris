@@ -1,0 +1,66 @@
+
+
+.container
+{
+	display: flex;
+	justify-content: center;
+}
+
+
+.grille
+{
+	border: 2px solid grey;
+	width: 200px;
+	height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	background: lightpink;
+}
+
+.grille div
+{
+	width: 20px;
+	height: 20px;
+}
+
+.tetromine
+{
+	background-color: blue;
+}
+
+.mini-grille
+{
+	border: 2px solid grey;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	flex-wrap: wrap;
+	background: lightpink;
+}
+
+.mini-grille div
+{
+	width: 20px;
+	height: 20px;
+}
+
+#start
+{
+  outline: none;
+  display: block;
+  margin-top: 15px;
+  margin-left: 600px;
+  background: yellow;
+  border-radius:2em;
+  padding: 5px; 
+  font-size: 1.5em;
+  font-family: arial;
+  cursor: pointer;
+}
+
+#start:active
+{
+	background: transparent;
+	border: 1px solid white;
+	color: white;
+}
